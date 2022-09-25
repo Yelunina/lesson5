@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@font-face {
+    font-family: "Schist";
+    src: url("../fonts/SchistRegular.woff2") format("woff2"), url("../fonts/SchistRegular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Schist";
+    src: url("../fonts/SchistBold.woff2") format("woff2"), url("../fonts/SchistBold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Schist";
+    src: url("../fonts/SchistBlack.woff2") format("woff2"), url("../fonts/SchistBlack.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+body{
+	font-family: "Schist",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    color:rgba(4, 4, 4, 0.7);
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    white-space: normal;
+}
+header{
+    font-family: "Noto Serif", serif;
+    color: #fff;
+    background-color: rgb(206, 97, 7);
+    letter-spacing: 1.5px;
+}
+span{
+    color: brown;
+    text-decoration: underline;
+}
+ul{
+    color: #fff;
+    white-space: normal;
+    text-align: justify;
+    word-spacing: 0.5px;
+}
+h2{
+    color: rgb(110, 73, 16);
+    font-family: "Noto Serif";
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 10px -2px 10px rgb(153, 150, 148);
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2;
+    text-indent: 20px;
+    letter-spacing: 0.5px;
+    margin: 15px;
+}
+.link{
+    color: black;
+}
+.text p{
+    font-style: normal;
+}
+.text-block{
+    background-color: grey;
+    padding: 10px;
+    margin: 10px;
+}
+.href-img-text{
+    margin: 15px;
+}
